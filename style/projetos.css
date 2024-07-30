@@ -84,8 +84,8 @@ nav a:hover {
 
 nav {
    align-items: left;
-   margin-top: 10px;
    height: 10vh;
+   margin: 10px;
 }
 em {
    text-decoration: none;
