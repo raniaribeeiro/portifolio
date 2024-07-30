@@ -1,0 +1,118 @@
+body {
+   margin: 20px;
+   padding: 0;
+   background-color: #13212a;
+   text-align: center;
+   font-family: "Sora", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+}
+
+img {
+   width: 500px;
+   height: 500px;
+}
+
+nav a {
+   color: #fff;
+   text-decoration: none;
+   margin-left: 40px;
+   margin-right:40px ;
+
+}
+
+nav a:hover {
+   opacity: 0.2;
+   
+}
+
+.logo {
+   font-size: 24px;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+}
+
+nav {
+   display: flex;
+   align-items: left;
+   height: 8vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+section, footer {
+    flex: 1;
+    width: 600px;
+    height: 600px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    left: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+em {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    color:#a91315;
+}
+p {
+    font-family: sans-serif;
+    color: #fff;
+    text-align: justify;
+    font-weight: lighter;
+    margin: 80px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    
+    
+}
+ button {
+   background-color: #edba45;
+    width: 350px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    margin: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+ }
+ a { 
+    color: black;
+    text-decoration: none;
+
+ }
+
+ .redes {
+    text-align: center;
+    margin-top: 18px;
+ }
+ .redes button {
+    background-color: #a91315;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 25px;
+   
+ }
+button:hover {
+   background-color: #ba902f;
+}
+.redes button:hover {
+   background-color: #791a1c;
+}
